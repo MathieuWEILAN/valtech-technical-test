@@ -1,0 +1,79 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border-width: 0;
+}
+
+.focus\:not-sr-only:focus {
+  position: static;
+  width: auto;
+  height: auto;
+  padding: 0;
+  margin: 0;
+  overflow: visible;
+  clip: auto;
+  white-space: normal;
+}
+
+*:focus-visible {
+  outline: 3px solid black;
+  outline-offset: 2px;
+}
+
+body {
+  @apply h-full text-primary;
+}
+
+main {
+  @apply container py-20;
+}
+
+h1 {
+  @apply text-4xl md:text-[48px] font-bold mb-5;
+}
+h2 {
+  @apply mb-10 text-[32px];
+}
+p {
+  @apply text-base;
+}
+
+@layer components {
+  .custom-container {
+    @apply mx-auto w-full px-[20px];
+  }
+
+  @screen sm {
+    .custom-container {
+      @apply px-[40px];
+    }
+  }
+
+  @screen md {
+    .custom-container {
+      @apply px-[60px];
+    }
+  }
+
+  @screen lg {
+    .custom-container {
+      @apply px-[80px];
+    }
+  }
+
+  @screen xl {
+    .custom-container {
+      @apply px-[120px];
+    }
+  }
+}

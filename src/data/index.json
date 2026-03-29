@@ -1,0 +1,129 @@
+{
+  "title": "Valtech Challenge",
+  "keywords": "valtech,tech,frontend",
+  "pageType": "HOMEPAGE",
+  "content": [
+    {
+      "type": "HERO",
+      "title": "Valtech",
+      "subtitle": "Banner subtitle",
+      "description": "Welcome to Valtech!",
+      "backgroundAsset": {
+        "url": "https://placehold.co/1196x480/F3F2EF/F3F2EF",
+        "alt": "banner background picture",
+        "type": "image"
+      },
+      "foregroundAsset": {
+        "url": "https://placehold.co/345x570/D1D3CA/D1D3CA",
+        "alt": "banner foreground picture",
+        "type": "image"
+      }
+    },
+    {
+      "type": "CARD_GRID",
+      "title": "Valtech Offices",
+      "cards": [
+        {
+          "type": "CARD",
+          "title": "Venice",
+          "subtitle": "Italy",
+          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc blandit in turpis eu volutpat. Quisque pellentesque scelerisque nisl, sit amet convallis orci convallis sit amet. Nam a neque dolor",
+          "backgroundAsset": {
+            "url": "https://placehold.co/588x479/D1D3CA/D1D3CA",
+            "alt": "Venice card image",
+            "type": "image"
+          },
+          "cta": {
+            "url": "/article",
+            "text": "Explore More",
+            "ariaLabel": "explore more button",
+            "target": "_blank"
+          }
+        },
+        {
+          "type": "CARD",
+          "title": "Berlin",
+          "subtitle": "Germany",
+          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc blandit in turpis eu volutpat. Quisque pellentesque scelerisque nisl, sit amet convallis orci convallis sit amet. Nam a neque dolor",
+          "backgroundAsset": {
+            "url": "https://placehold.co/588x479/D1D3CA/D1D3CA",
+            "alt": "Berlin card image",
+            "type": "image"
+          },
+          "cta": {
+            "url": "/article",
+            "text": "Explore More",
+            "ariaLabel": "explore more button",
+            "target": "_blank"
+          }
+        },
+        {
+          "type": "CARD",
+          "title": "Barcelona",
+          "subtitle": "Spain",
+          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc blandit in turpis eu volutpat. Quisque pellentesque scelerisque nisl, sit amet convallis orci convallis sit amet. Nam a neque dolor",
+          "backgroundAsset": {
+            "url": "https://placehold.co/588x479/D1D3CA/D1D3CA",
+            "alt": "Barcelona card image",
+            "type": "image"
+          }
+        },
+        {
+          "type": "CARD",
+          "title": "Berlin",
+          "subtitle": "Germany",
+          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc blandit in turpis eu volutpat. Quisque pellentesque scelerisque nisl, sit amet convallis orci convallis sit amet. Nam a neque dolor",
+          "backgroundAsset": {
+            "url": "https://placehold.co/588x479/D1D3CA/D1D3CA",
+            "alt": "Berlin card image",
+            "type": "image"
+          },
+          "cta": {
+            "text": "Explore More",
+            "url": "/article",
+            "ariaLabel": "explore more button",
+            "target": "_blank"
+          }
+        },
+        {
+          "type": "CARD",
+          "title": "Amsterdam",
+          "subtitle": "Netherlands",
+          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc blandit in turpis eu volutpat. Quisque pellentesque scelerisque nisl, sit amet convallis orci convallis sit amet. Nam a neque dolor",
+          "backgroundAsset": {
+            "url": "https://placehold.co/588x479/D1D3CA/D1D3CA",
+            "alt": "Amsterdam card image",
+            "type": "image"
+          },
+          "cta": {
+            "text": "Explore More",
+            "url": "/article",
+            "ariaLabel": "explore more button",
+            "target": "_blank"
+          }
+        },
+        {
+          "type": "CARD",
+          "title": "London",
+          "subtitle": "United Kingdom",
+          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc blandit in turpis eu volutpat. Quisque pellentesque scelerisque nisl, sit amet convallis orci convallis sit amet. Nam a neque dolor",
+          "backgroundAsset": {
+            "url": "https://placehold.co/588x479/D1D3CA/D1D3CA",
+            "alt": "London card image",
+            "type": "image"
+          },
+          "cta": {
+            "text": "Explore More",
+            "url": "/article",
+            "ariaLabel": "explore more button",
+            "target": "_blank"
+          }
+        }
+      ]
+    }
+  ],
+  "footer": {
+    "background": "https://placehold.co/1440x400/black/black",
+    "text": "The experience innovation company"
+  }
+}

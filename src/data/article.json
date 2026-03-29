@@ -1,0 +1,66 @@
+{
+  "title":"Valtech Article",
+  "keywords":"valtech,tech,frontend",
+  "pageType":"ARTICLE",
+  "content":[
+    {
+      "type":"HERO_ARTICLE",
+      "title": "Quisque ut gravida mauris, a consequat est",
+      "subtitle":"Suspendisse potenti",
+      "author":"Duis Viverra",
+      "publishingDate":"June 23, 1999",
+      "backgroundAsset":{
+        "url":"https://placehold.co/730x480/4C4C49/4C4C49",
+        "alt":"hero background picture",
+        "type":"image"
+      },
+      "sideAsset":{
+        "url":"https://placehold.co/466x480/D1D3CA/D1D3CA",
+        "alt":"hero side picture",
+        "type":"image"
+      }
+    },
+    {
+      "type":"PARAGRAPH",
+      "highlight": true,
+      "text":"<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, nulla a rhoncus ornare, ante enim ullamcorper leo, et viverra leo metus in justo. Fusce tortor lorem, fermentum eget odio at, rutrum tincidunt tellus. Sed malesuada est in sem efficitur, hendrerit vestibulum leo placerat. Nunc eget convallis nisi, sagittis sodales ex. Integer eleifend lacus felis, vitae molestie enim gravida sit amet. Vestibulum euismod lobortis sapien, volutpat gravida nunc vestibulum quis. Mauris aliquet porta justo, a pretium nulla ultricies et. Vestibulum non congue augue. Vestibulum congue dignissim felis, at semper ex rhoncus vel.</p>"
+    },
+    {
+      "type":"PARAGRAPH",
+      "highlight": false,
+      "text":"<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, nulla a rhoncus ornare, ante enim ullamcorper leo, et viverra leo metus in justo. Fusce tortor lorem, fermentum eget odio at, rutrum tincidunt tellus. Sed malesuada est in sem efficitur, hendrerit vestibulum leo placerat. Nunc eget convallis nisi, sagittis sodales ex. Integer eleifend lacus felis, vitae molestie enim gravida sit amet. Vestibulum euismod lobortis sapien, volutpat gravida nunc vestibulum quis. Mauris aliquet porta justo, a pretium nulla ultricies et. Vestibulum non congue augue. Vestibulum congue dignissim felis, at semper ex rhoncus vel.</p>"
+    },
+    {
+      "type":"CAROUSEL",
+      "items":[
+        {
+          "url":"https://placehold.co/1195x400/D1D3CA/D1D3CA",
+          "alt":"carousel first item",
+          "description": "Aliquam malesuada velit nisl, quis porta massa bibendum ut. Pellentesque interdum purus felis, sit amet ullamcorper dolor mattis gravida. In non ullamcorper ex. Proin rutrum placerat tortor in sodales.",
+          "type":"image"
+        },
+        {
+          "url":"https://placehold.co/1195x400/D1D3CA/D1D3CA",
+          "alt":"carousel second item",
+          "description": "Aliquam malesuada velit nisl, quis porta massa bibendum ut. Pellentesque interdum purus felis, sit amet ullamcorper dolor mattis gravida. In non ullamcorper ex. Proin rutrum placerat tortor in sodales.",
+          "type":"image"
+        },
+        {
+          "url":"https://placehold.co/1195x400/D1D3CA/D1D3CA",
+          "alt":"carousel third item",
+          "description": "Aliquam malesuada velit nisl, quis porta massa bibendum ut. Pellentesque interdum purus felis, sit amet ullamcorper dolor mattis gravida. In non ullamcorper ex. Proin rutrum placerat tortor in sodales.",
+          "type":"image"
+        }
+      ]
+    },
+    {
+      "type":"PARAGRAPH",
+      "highlight": false,
+      "text":"<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, nulla a rhoncus ornare, ante enim ullamcorper leo, et viverra leo metus in justo. Fusce tortor lorem, fermentum eget odio at, rutrum tincidunt tellus. Sed malesuada est in sem efficitur, hendrerit vestibulum leo placerat. Nunc eget convallis nisi, sagittis sodales ex. Integer eleifend lacus felis, vitae molestie enim gravida sit amet. Vestibulum euismod lobortis sapien, volutpat gravida nunc vestibulum quis. Mauris aliquet porta justo, a pretium nulla ultricies et. Vestibulum non congue augue. Vestibulum congue dignissim felis, at semper ex rhoncus vel.</p>"
+    }
+  ],
+  "footer":{
+    "background":"https://placehold.co/1440x400/black/black",
+    "text":"The experience innovation company"
+  }
+}
