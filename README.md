@@ -27,11 +27,13 @@ Open [http://localhost:3000](http://localhost:3000) in your browser.
 
 ### 3. Other useful commands
 
-| Command         | Description                          |
-|-----------------|--------------------------------------|
-| `npm run build` | Production build                     |
-| `npm run start` | Serve the production build (after `build`) |
-| `npm run lint`  | Run ESLint                           |
+| Command              | Description                                |
+|----------------------|--------------------------------------------|
+| `npm run build`      | Production build                           |
+| `npm run start`      | Serve the production build (after `build`) |
+| `npm run lint`       | Run ESLint                                 |
+| `npm run test`       | Run tests                                  |
+| `npm run test:watch` | Run tests in watch mode                    |
 
 ## Content and routes
 
