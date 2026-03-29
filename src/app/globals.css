@@ -41,11 +41,17 @@ main {
 h1 {
   @apply text-4xl md:text-[48px] font-bold mb-5;
 }
+
 h2 {
   @apply mb-10 text-[32px];
 }
-p {
-  @apply text-base;
+
+.text-link {
+  @apply underline hover:text-tertiary transition-all duration-300 underline-offset-2;
+}
+
+.text-link-container a {
+  @apply underline hover:text-tertiary transition-all duration-300 underline-offset-2;
 }
 
 @layer components {

@@ -8,7 +8,7 @@ const Paragraph = ({ data }: { data: ParagraphBlock }) => {
   return (
     <section className="py-8">
       <div
-        className={highlight ? "text-[32px]" : "text-[20px] custom-container"}
+        className={`text-link-container ${highlight ? "text-[32px]" : "text-[20px] custom-container"}`}
         dangerouslySetInnerHTML={{ __html: sanitizedText }}
       />
     </section>
